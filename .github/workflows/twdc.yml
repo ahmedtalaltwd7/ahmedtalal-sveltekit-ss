@@ -1,4 +1,4 @@
-name: twd did name: twd did ci
+name: ci
 
 on:
   push:
