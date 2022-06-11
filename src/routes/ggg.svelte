@@ -11,7 +11,7 @@
 	import Header from "./Header.svelte";
 	async function getUsers() {
 	  //let response = await fetch("http://localhost/api/v1/auth/gettours"); for docker if 80:5000
-	  let response = await fetch("http://localhost:5000/api/v1/auth/gettours");
+	  let response = await fetch("https://heretecadvisor.com/api/v1/auth/gettours");
 	  let users = await response.json();
 	  users=users.data.tours;
 	  return users;
