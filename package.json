@@ -2,7 +2,7 @@
   "name": "ss",
   "version": "0.0.1",
   "scripts": {
-    "start": "svelte-kit dev",
+    "start": "sirv public --host 0.0.0.0",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
